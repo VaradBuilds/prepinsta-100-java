@@ -1,4 +1,6 @@
-package src.basics;
+package src.arrays;
+
+import src.basics.P008_PrimeOrNot;
 
 import java.util.ArrayList;
 import java.util.List;
