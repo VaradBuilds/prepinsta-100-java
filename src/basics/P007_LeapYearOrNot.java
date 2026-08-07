@@ -25,7 +25,7 @@ public class P007_LeapYearOrNot {
         }
     }
 
-    private static boolean isLeapYear(int year) {
+    public static boolean isLeapYear(int year) {
         // if it is divisible by 4 but not divisible to 100 and if it is divisible by 400
         return (year % 4 == 0 && year % 100 != 0)
                 || (year % 400 == 0);
