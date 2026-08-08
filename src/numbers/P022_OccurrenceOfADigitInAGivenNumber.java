@@ -11,7 +11,7 @@ public class P022_OccurrenceOfADigitInAGivenNumber {
 
         System.out.print("Enter digit : ");
         int x = sc.nextInt();
-
+        
         if (x < 0 || x > 9) {
             System.out.print("Please enter a single digit (0-9).");
             return;

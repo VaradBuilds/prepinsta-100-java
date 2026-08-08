@@ -15,7 +15,6 @@ public class P021_NumberOfDaysInAGivenMonthOfAYear {
 
             System.out.print("Enter year: ");
             int year = sc.nextInt();
-
             if (year <= 0) {
                 System.out.println("Invalid year.");
                 return;
