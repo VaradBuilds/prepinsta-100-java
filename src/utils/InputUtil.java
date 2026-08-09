@@ -20,6 +20,6 @@ public class InputUtil {
 
     public static String readString(String message) {
         System.out.print(message);
-        return SC.next();
+        return SC.nextLine();
     }
 }
