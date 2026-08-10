@@ -11,7 +11,9 @@ public class InputUtil {
 
             System.out.print(message);
             if (SC.hasNextInt()) {
-                return SC.nextInt();
+                int value = SC.nextInt();
+                SC.nextLine();
+                return value;
             }
             System.out.println("Invalid input! Please enter an integer.");
             SC.next();
