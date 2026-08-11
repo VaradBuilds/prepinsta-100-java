@@ -11,7 +11,6 @@ public class P044_ReplaceSubstringInAString {
     }
 
     private static String replaceSubString(String s, String replace, String with) {
-
         return s.replace(replace, with);
     }
 }
